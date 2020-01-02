@@ -1,0 +1,70 @@
+/**
+ * =========================================
+ * Mixins
+ * =========================================
+ */
+
+@mixin center{ margin:0 auto; text-align: center;  }
+@mixin full { width:100%; float:left; }
+@mixin transition{
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+}
+@mixin rounded_corners{
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+/* END Mixins */
+
+
+/**
+ * =========================================
+ * Variables
+ * =========================================
+ */
+
+//  Sprocket Variable Set
+    $sprocket-red:       #ec5653;
+    $sprocket-dblue:     #1d1835;
+    $sprocket-ddblue:    #0e0b1e;
+    $sprocket-mblue:     #2b254a;
+    $sprocket-lblue:     #bdc7e5;
+    $sprocket-altblue:   #123467;
+    $sprocket-slate:     #666d75;
+    $sprocket-lslate:    #e0e4ea;
+
+
+ /* END Variables */
+
+
+/**
+ * =========================================
+ * Setup Classes
+ * =========================================
+ */
+ 
+ .text-sprocket-red{        color: $sprocket-red !important; }
+ .text-sprocket-dblue{      color: $sprocket-dblue !important; }
+ .text-sprocket-ddblue{     color: $sprocket-ddblue !important; }
+ .text-sprocket-mblue{      color: $sprocket-mblue !important; }
+ .text-sprocket-lblue{      color: $sprocket-lblue !important; }
+ .text-sprocket-altblue{    color: $sprocket-altblue !important; }
+ .text-sprocket-slate{      color: $sprocket-slate !important; }
+ .text-sprocket-lslate{     color: $sprocket-lslate !important; }
+
+ .text-white{       color: #fff !important; }
+ .text-bold{        font-weight: 600 !important; }
+ .text-extrabold{   font-weight: 900 !important; }
+ 
+ .bg-sprocket-red{      background: $sprocket-red; }
+ .bg-sprocket-dblue{    background: $sprocket-dblue; }
+ .bg-sprocket-ddblue{   background: $sprocket-ddblue; }
+ .bg-sprocket-mblue{    background: $sprocket-mblue; }
+ .bg-sprocket-lblue{    background: $sprocket-lblue; }
+ .bg-sprocket-altblue{  background: $sprocket-altblue; }
+ .bg-sprocket-slate{    background: $sprocket-slate; }
+ .bg-sprocket-lslate{   background: $sprocket-lslate; }

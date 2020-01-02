@@ -1,0 +1,701 @@
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
+
+@import 'mixins';
+@import 'responsive_styles';
+@import 'setup';
+@import 'grid';
+
+/* END: Imports */
+
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
+
+ * {
+     margin:0; padding:0;
+
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+ }
+
+ html{ 
+    height: 100%; 
+    width: 100%;
+    overflow: scroll;
+    background: white;
+  }
+
+ body{  }
+
+ a{ 
+    @include transition; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: $sprocket-dblue; 
+    text-decoration: none; 
+
+   &:hover{ 
+      @include transition; 
+      color: $sprocket-red;   
+    }
+  }
+
+ p, label{ 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+   }
+
+ ul{ list-style:none; }
+
+ hr{ 
+   @include full;
+   height: 1px;
+   background: $sprocket-lslate;
+   border: none; 
+  }
+
+ h1, h2, h3, h4, h5, h6{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+ }
+
+ h1{ font-size: 30px; line-height: 30px; }
+ h2{ font-size: 27px; line-height: 27px; }
+ h3{ font-size: 24px; line-height: 24px; }
+ h4{ font-size: 21px; line-height: 21px; }
+ h5{ font-size: 18px; line-height: 18px; }
+//  h4{ line-height: ; }
+//  h5{ line-height: ; }
+
+ button{ 
+   border: none;
+
+   &:hover{
+     cursor: pointer;
+   }
+  }
+
+ ::selection{ background: $sprocket-dblue; color: white; }
+
+ /* END: Global Styles */
+
+
+ /**
+  * =========================================
+  * Utility Classes
+  * =========================================
+  */
+
+ .clear{ clear: both; }
+ .left{  float: left; }
+ .right{ float: right; }
+
+ .divider{ height: 6px; width: 75px; }
+ .divider-small{ height: 3px; width: 50px; }
+
+ .rounded-corners{ border-radius: 8px; }
+
+ .text-small{ font-size: 14px; }
+ .text-medium{ font-size: 19px; }
+
+ .ol-disc{ 
+   list-style: disc;
+   content: "\2022";
+   padding-left: 20px;
+  }
+
+  // Creates inner shadow around screen edges. 
+  .box-shadow{
+    position: fixed;
+    z-index: -5;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0; 
+    box-shadow: inset 0 0 100px #d5dfec;
+  }
+
+  select{
+    background: #f5f6f8;
+    border: 1px solid rgba(189,199,229,.5);
+    border-radius: 3px;
+    padding: 10px; 
+
+  }
+
+ /* END: Utility Classes */
+
+
+ /**
+  * =========================================
+  * Navigation
+  * =========================================
+  */
+  .navigation-container{
+    @include full;
+
+    display: flex; 
+    height: 90px;
+
+    background: $sprocket-dblue;
+    // padding: 20px 0px; 
+
+    .navigation-content{
+      width: 90vw;
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+  
+    .navigation-logo{
+      float: left;
+      margin: 20px 0;  
+
+      &:hover{ background: none !important; border-bottom: none;  }
+      
+      img{
+        height: 45px; 
+      }
+    }
+  }
+
+  .user-info-container{
+    float:right; 
+    text-align: right; 
+
+    .user-info-name{
+      @include full; 
+      line-height: 25px; 
+    }
+
+    .user-info-details{
+      @include full; 
+
+      ul{
+        float: right;        
+
+        li, li a{
+          color: $sprocket-lblue;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 500;
+          font-size: 12px;
+          float: left; 
+        }
+      }
+    }
+  }
+
+  .navigation-links{
+    float: right;
+    height: 100%;  
+
+    li{
+      @include transition; 
+      display: inline;
+      height: 100%;  
+
+      a{ 
+        float: left;
+        height: 100%;
+        line-height: 90px;   
+
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &:hover{
+          @include transition; 
+          background: $sprocket-ddblue; 
+        }
+       }
+
+     
+
+      // &:nth-child(2){ margin: 0 30px; }
+
+      .navlink-icon{
+        display: visible;  
+      }
+      
+      .navlink-label{
+        display: visible;  
+      }
+    }
+  }
+
+
+  .logged-in-nav{
+    .nav-links{
+      ul{
+        li{
+          display: inline;
+          a{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            color: $sprocket-lblue; 
+
+            &:hover{
+              color: white; 
+            }
+          }
+        }
+      }
+    }
+  }
+
+/* END: Navigation */
+
+
+ /**
+  * =========================================
+  * Elements
+  * =========================================
+  */ 
+
+  // Splash
+  .splash-title-container{
+    @include center; 
+    width: 400px; 
+    padding-top: 200px; 
+  }
+
+  // Generic Box
+  .box-a{
+    @include rounded_corners; 
+    padding: 30px; 
+    border: 2px solid $sprocket-lslate;
+  }
+
+  .box-c{
+    background: #ebedf0;
+    border-radius: 5px; 
+    padding: 10px;     
+  }
+
+
+  // Full Size Blue Button
+  .button-blue{
+    @include rounded_corners;
+    @include transition;
+
+    background: $sprocket-altblue;
+    padding: 10px 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: white; 
+    text-align: center; 
+    
+    &:hover{
+      @include transition; 
+      border: none;
+      background: #164893; 
+    }  
+
+    &:active{
+      background: $sprocket-altblue;
+    }
+  }
+
+  // Full Size Red Button
+  .button-red{
+    @include rounded_corners;
+    @include transition;
+
+    background: #b12321;
+    padding: 10px 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: white; 
+    text-align: center; 
+
+    &:hover{
+      @include transition; 
+      border: none;
+      background: $sprocket-red; 
+    }  
+
+    &:active{
+      background: $sprocket-altblue;
+    }
+  }
+
+  // Track Selection Button
+  .button-large{
+    @include rounded_corners;
+    @include transition;
+
+    background: #F5F6F8;
+    padding: 60px;
+
+    h2{
+      @include transition; 
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 900;
+      color: $sprocket-slate; 
+      text-align: center; 
+      font-size: 25px; 
+    }
+
+    &:hover{
+      @include transition; 
+      border: none;
+      background: $sprocket-lslate; 
+
+      h2{
+        @include transition; 
+        color: $sprocket-altblue;
+      }
+
+      .track-select-icon{
+        color: $sprocket-altblue;
+      }
+    }  
+
+    &:active{
+      background: $sprocket-altblue;
+
+      h2, .track-select-icon{
+        color: white; 
+      }
+    }
+    
+  }
+
+  // Generic Box Built to have the header and body separated (Used for data display)
+  .box-b{
+    .body{
+      @include full; 
+      padding: 20px; 
+      border-left: 2px solid $sprocket-lslate;
+      border-right: 2px solid $sprocket-lslate;
+      border-bottom: 2px solid $sprocket-lslate;
+      border-radius: 0 0 3px 3px;
+    }
+  }
+
+  // Box built to mimic box-b, but with styling to work with tabs
+  .box-tabs{
+    .body{
+      @include full; 
+      padding: 20px; 
+      border-left: 2px solid $sprocket-lslate;
+      border-right: 2px solid $sprocket-lslate;
+      border-bottom: 2px solid $sprocket-lslate;
+      border-top: 2px solid $sprocket-lslate;
+      border-radius: 3px;
+    }
+  }
+
+  //Header Styles
+  .header{
+    @include full; 
+    padding: 10px 20px; 
+    border: 2px solid $sprocket-lslate;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .header-b{
+    @include full; 
+    padding: 15px; 
+    border: 2px solid $sprocket-dblue;
+    border-radius: 3px 3px 0 0;
+    background: $sprocket-dblue;
+
+    h3{ color: white !important; }
+  }
+
+  .header-c{
+    @include full; 
+    padding: 10px 15px; 
+    border: 2px solid $sprocket-lslate;
+    border-radius: 3px 3px 0 0;
+    background: $sprocket-lslate;
+
+    h3{ color: $sprocket-dblue !important; }
+  }
+
+  .header-d{
+    @include full; 
+    padding: 10px 20px; 
+    border: 2px solid $sprocket-red;
+    border-radius: 3px 3px 0 0;
+    background: $sprocket-red;
+
+    h3{ color: white !important; }
+  }
+
+  .text-feature{
+    font-size: 22px; 
+  }
+  
+
+  // These styles are used for the header section of each page. 
+  .dashboard-header-container{
+
+    .game-header{
+      float: left;
+      div{ float: left; }
+    }
+
+    .game-dates{
+      float: right;
+
+      ul{ 
+        float: right;
+        
+        li{ float: left; }
+      }
+    }
+
+    // Smaller version of the blue button used in the date change section.
+    .button-blue{
+      font-size: 14px !important;
+      padding: 5px 15px 7px 15px !important;
+    }
+    
+    .dashboard-header{
+      font-family: 'Catamaran', sans-serif;
+      font-size: 30px;
+      font-weight: 900;
+      // text-transform: uppercase; 
+    }
+    .dashboard-dates{
+      p{ line-height: 35px; }
+    }
+
+    // Vertical divider between the Home Icon Button and Game Name
+    .divider{ 
+      margin-top: 8px; 
+      height: 30px; 
+      width: 2px;
+      background: $sprocket-lslate;
+    }
+  }
+
+  .icon-home{
+    height: 25px; 
+    margin: 9px 20px 0 0;
+  }
+
+
+// Created for Statistic data table display. 
+.data-display-container{
+
+  .data-display{
+    background: #f5f6f8; 
+    border: 1px solid rgba(189,199,229, .5);
+    border-radius: 3px; 
+
+    .data-display-border-vertical{
+      border-right: 1px solid rgba(189,199,229, .5);
+    }
+
+    .data-display-border-horizontal{
+      border-bottom: 1px solid rgba(189,199,229, .5);
+    }
+
+    // These make sure the styling is adjusted correctly on window resize. 
+    .dd-item-a{ padding: 10px; }
+    .dd-item-b{ padding: 10px; }
+  }
+
+}
+
+// Arrow Buttons - Needs positioning based on parent container.
+.arrow-button{
+  @include transition; 
+  height: 50px; 
+  width: 50px;
+  border-radius: 25px;  
+  background: $sprocket-altblue;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+
+  &:hover{
+    @include transition;
+    background: #164893;
+    border: none; 
+  }
+}
+
+.icon-arrow-left{
+  height: 23px;
+  padding: 3px 3px 0 0;
+}
+
+.icon-arrow-right{
+  height: 23px;
+  padding: 3px 0 0 3px;
+}
+
+
+// React Tab Styles
+.react-tabs__tab{
+  @include transition; 
+  background: $sprocket-lslate; 
+  margin: 0 5px; 
+  padding: 10px 15px; 
+  border-radius: 10px 10px 0 0;
+
+  p{ color: $sprocket-slate; }
+
+  &:hover{
+    @include transition; 
+    cursor: pointer; 
+    background: #e9ecf0; 
+  }
+}
+
+.react-tabs__tab--selected{
+  @include transition; 
+  background: $sprocket-altblue; 
+  margin: 0 5px; 
+  padding: 10px 15px;
+  border-radius: 10px 10px 0 0;
+
+  p{ 
+    color: white;
+    font-weight: 900; 
+   }
+
+  &:hover{
+    @include transition; 
+    cursor: pointer; 
+    background: #164893;
+  }
+}
+
+// Can Delete -- Used to test scaling for real graphs
+.fakegraph{
+  height: 20vh; 
+  width: 100%; 
+  border-radius: 50%; 
+  background: $sprocket-slate; 
+}
+
+.track-select-icon{
+  @include transition;
+  color: $sprocket-slate; 
+  
+  &:hover{
+    @include transition;
+    color: $sprocket-altblue;
+  }
+
+  .fa-gamepad{ font-size: 80px; }
+  .fa-user-friends{ font-size: 80px }
+  .fa-file-alt{ font-size: 80px; }
+}
+
+.fa-calendar-alt{ font-size: 18px; }
+
+.date-range-container{
+    display: flex;
+    height: 100%; 
+
+    div,ul{
+        justify-content: flex-end;
+        align-self: center; 
+        margin-left: auto; 
+    }
+
+}
+
+/* END: Elements */
+
+
+ /**
+  * =========================================
+  * Footer
+  * =========================================
+  */ 
+
+  .footer-container{
+    background: rgb(235, 238, 241);
+    margin-top: 60px; 
+
+    .footer-logo{
+      padding: 20px 0; 
+      height: 110px; 
+      width: 100%; 
+      max-width: 100%; 
+    }
+  }
+
+  /* END: Footer */
+
+
+// Modal
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  .cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+  }
+  &:target {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.popup {
+  margin: 75px auto;
+  background: #fff;
+  width: 60vw;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: fixed;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  right: 0; 
+  bottom: 0; 
+  
+  .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 15px;
+    opacity: 1;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+    &:hover {
+      opacity: 1;
+      color: white !important; 
+    }
+  }
+  .content {
+    max-height: 400px;
+    overflow: auto;
+  }
+  p {
+    margin: 0 0 1em;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

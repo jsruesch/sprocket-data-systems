@@ -1,0 +1,35 @@
+/**
+ * =========================================
+ * Responsive Styles
+ * =========================================
+ */
+
+@import 'mixins';
+
+@media screen and (max-width: 895px){ 
+
+    /* Grid Components  */
+    .wrapper-content{ padding-left: 20px; padding-right: 20px; }
+
+    /* Game Dashboard Header Components */
+    .game-dates ul{ float: left !important; }
+
+    .data-display-border-vertical{
+      border-right: none !important;
+    }
+
+    .dd-item-a{ padding: 15px 15px 0 15px !important; }
+    .dd-item-b{ padding: 0 15px 15px 15px !important; }
+
+    .navigation-content{ width: 100% !important; padding-left: 10px;  }
+    .navlink-icon{ font-size: 25px; padding-right: 0 !important; }
+    .navlink-label{ display: none; }
+
+    .footer-container{
+      margin-top: 30px !important; 
+    }
+
+    .popup{ width: 90vw !important; }
+
+}
+
