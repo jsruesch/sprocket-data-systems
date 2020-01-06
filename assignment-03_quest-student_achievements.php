@@ -173,7 +173,7 @@
                     <div class="full"></div>
                     <div class="full grid-2col ggap-20">
                       <a href="#" class="button-blue text-white"><h5>Confirm</h5></a>
-                      <a href="assignment-03_quest.php" class="button-red text-white"><h5>Cancel</h5></a>
+                      <a href="#" class="button-red text-white"><h5>Cancel</h5></a>
                     </div>
                     <div class="full"></div>
                     
