@@ -136,6 +136,57 @@
       </div>
     </section><!-- END: Data Filter -->
 
+  <!-- Data Filter -->
+    <section>
+      <div id="popup2" class="overlay">
+        <a class="cancel" href="#"></a>
+        <div class="popup">
+          <div class="full">
+            <div class="header-b"><h3 class="text-white">Select Student</h3></div>
+            <div class="full pad20">
+
+                <div class="full mar20-top">
+                  <!-- Assignment Selection -->
+                    <div class="full">
+                      <select name="LevelSelect" id="" class="full">
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                        <option value="AssignmentA">Student A</option>
+                      </select>
+                    </div><!-- END: Assignment Selection -->
+                </div>
+
+                <hr class="mar20-top mar20-bot"/>
+
+                <div class="full">
+                  <!-- Buttons -->
+                  <div class="grid-3col text-center">
+                    <div class="full"></div>
+                    <div class="full grid-2col ggap-20">
+                      <a href="#" class="button-blue text-white"><h5>Confirm</h5></a>
+                      <a href="assignment-03_quest.php" class="button-red text-white"><h5>Cancel</h5></a>
+                    </div>
+                    <div class="full"></div>
+                    
+                  </div><!-- Buttons -->
+                </div>
+              </div>
+            </div><!-- END: full -->
+          <a class="close" href="#"><i class="fas fa-times text-sprocket-lblue"></i></a>
+        </div><!-- END: Popup --> 
+      </div>
+    </section><!-- END: Data Filter -->
+
+
 
   <!-- Data Display -->
     <section>
@@ -144,9 +195,9 @@
       <div class="full box-b">
           <div class="header-b">
             <h4 class="text-sprocket-lblue">
-              Student A
+              <a href="#popup2" class="text-sprocket-lblue">Student A</a>
               <span class="text-sprocket-altblue mar5-left mar5-right"> | </span>
-              <span class="text-white">Airport</span></h4>
+              <a href="#popup2" class="text-white">Airport</a></h4>
           </div>
           <div class="body">
             <div class="grid-3col ggap-10">
