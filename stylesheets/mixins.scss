@@ -36,6 +36,7 @@
     $sprocket-altblue:   #123467;
     $sprocket-slate:     #666d75;
     $sprocket-lslate:    #e0e4ea;
+    $sprocket-green:     #248740;
 
 
  /* END Variables */
@@ -52,9 +53,10 @@
  .text-sprocket-ddblue{     color: $sprocket-ddblue !important; }
  .text-sprocket-mblue{      color: $sprocket-mblue !important; }
  .text-sprocket-lblue{      color: $sprocket-lblue !important; }
- .text-sprocket-altblue{    color: $sprocket-altblue !important; }
+ .text-sprocket-altblue{    color: $sprocket-altblue !important;}
  .text-sprocket-slate{      color: $sprocket-slate !important; }
  .text-sprocket-lslate{     color: $sprocket-lslate !important; }
+ .text-sprocket-green{      color: $sprocket-green !important; }
 
  .text-white{       color: #fff !important; }
  .text-bold{        font-weight: 600 !important; }
@@ -68,3 +70,4 @@
  .bg-sprocket-altblue{  background: $sprocket-altblue; }
  .bg-sprocket-slate{    background: $sprocket-slate; }
  .bg-sprocket-lslate{   background: $sprocket-lslate; }
+ .bg-sprocket-green{    background: $sprocket-green; }

@@ -76,6 +76,12 @@
     grid-template-areas: "left middle right";
  }
 
+ .grid-3col-data-select{
+    display: grid; 
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-areas: "left middle right";
+ }
+
  .grid-4col{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -126,6 +132,7 @@
             "middle"
             "right";
     }
+
 
     .grid-4col{
         grid-template-columns: 100%;
@@ -187,6 +194,30 @@
       "gal05"
       "gal06";
     }
+
+    .grid-2col-forcemobile{
+      display: grid; 
+      grid-template-columns: 1fr 1fr !important;
+      grid-template-areas: "left right" !important;
+   }
+  
+   .grid-3col-forcemobile{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr !important;
+      grid-template-areas: "left middle right" !important;
+   }
+  
+   .grid-4col-forcemobile{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+      grid-template-areas: "left midleft midright right" !important;
+   }
+  
+   .grid-5col-forcemobile{
+      display: grid; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+      grid-template-areas: "left midleft middle midright right" !important;
+   }
     
  }
 

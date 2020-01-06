@@ -24,6 +24,7 @@
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/f41877d206.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/15bcd19851.js" crossorigin="anonymous"></script> -->
 
 </head>
 

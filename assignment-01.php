@@ -61,7 +61,7 @@
                 <!-- Assignment Selection -->
                   <div class="full">
                     <div class="full mar5-bot">
-                      <label for="AssignmentSelect"><h5 class="text-sprocket-slate">Select Assignment</h5></label>
+                      <label for="AssignmentSelect"><h5 class="text-sprocket-slate">Select AssSelect Assignment</h5></label>
                     </div>
                     <div class="full">
                       <select name="AssignemntSelect" id="" class="full">
@@ -108,15 +108,16 @@
 
                 <hr class="mar20-top mar20-bot"/>
 
-                <div class="full ggap-20 ">
+                <div class="full">
                   <!-- Buttons -->
-                  <div class="grid-2col ggap-20 text-center">
-                    <div class="full">
-                      <a href="assignment-02.php" class="button-blue text-white right"><h5>Apply Filter</h5></a>
+                  <div class="grid-3col text-center">
+                    <div class="full"></div>
+                    <div class="full grid-2col ggap-20">
+                      <a href="assignment-02.php" class="button-blue text-white"><h5>Apply Filter</h5></a>
+                      <a href="" class="button-red text-white"><h5>Reset Values</h5></a>
                     </div>
-                    <div class="full">
-                      <a href="" class="button-red text-white left"><h5>Reset Values</h5></a>
-                    </div>
+                    <div class="full"></div>
+                    
                   </div><!-- Buttons -->
                 </div>
               </div>
