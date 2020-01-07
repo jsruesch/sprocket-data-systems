@@ -19,7 +19,6 @@
           <p class="left mar5-left mar5-right text-sprocket-lblue">|</p>          
           <a href="" class="left">Class A</a>
         </div>
-        
       </div><!-- END: Game Title -->
       <!-- Dates Container -->
         <div class="game-dates date-range-container">

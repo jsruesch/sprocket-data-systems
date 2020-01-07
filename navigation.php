@@ -4,7 +4,9 @@
    <div class="navigation-content">
       <!-- Nav Logo -->
       <div class="navigation-logo">
-        <a href="dashboard_choose-track.php"><img src="img/sprocket-logo-dark-01.svg"/></a>
+         <a href="https://gearlearning.org/" target="_blank" class="left"><img src="img/gearlearning-icon-light.svg"/></a>
+         <div class="nav-divider-vertical left mar15-left mar15-right"></div>
+         <a href="dashboard_choose-track.php" class="left"><img src="img/sprocket-logo-dark-01.svg"/></a>
       </div><!-- END: Nav Logo -->
 
       <?php include('nav-links.php') ?>

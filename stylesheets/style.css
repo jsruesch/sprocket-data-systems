@@ -1149,6 +1149,13 @@ select {
   height: 25px;
   margin: 9px 20px 0 0; }
 
+.nav-divider-vertical {
+  margin-top: 3px;
+  height: 40px;
+  width: 1px;
+  background: #123467;
+  border: none; }
+
 .data-display-container .data-display {
   background: #f5f6f8;
   border: 1px solid rgba(189, 199, 229, 0.5);
