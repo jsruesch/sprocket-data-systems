@@ -794,12 +794,18 @@
     margin-top: 60px; 
 
     .footer-logo{
-      padding: 20px 0; 
-      height: 110px; 
-      width: 100%; 
-      max-width: 100%; 
+
+      img{
+        padding: 0 0; 
+        height: 55px; 
+        width: 100%; 
+        max-width: 100%; 
+      }
+      
     }
   }
+
+  .footer-info{  p{ text-align: right;  } }
 
   /* END: Footer */
 

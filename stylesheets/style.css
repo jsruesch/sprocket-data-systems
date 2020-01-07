@@ -201,6 +201,9 @@
   .footer-container {
     margin-top: 30px !important; }
 
+  .footer-info p {
+    text-align: center !important; }
+
   .popup {
     width: 90vw !important; }
 
@@ -573,6 +576,12 @@ h1, h2, h3, h4, h5 {
 
 .ggap-30 {
   grid-gap: 30px; }
+
+.ggap-40 {
+  grid-gap: 40px; }
+
+.ggap-50 {
+  grid-gap: 50px; }
 
 .ggap-60 {
   grid-gap: 60px; }
@@ -1425,11 +1434,14 @@ select {
 .footer-container {
   background: #ebeef1;
   margin-top: 60px; }
-  .footer-container .footer-logo {
-    padding: 20px 0;
-    height: 110px;
+  .footer-container .footer-logo img {
+    padding: 0 0;
+    height: 55px;
     width: 100%;
     max-width: 100%; }
+
+.footer-info p {
+  text-align: right; }
 
 /* END: Footer */
 .overlay {
