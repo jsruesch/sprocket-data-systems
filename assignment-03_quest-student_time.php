@@ -197,23 +197,43 @@
           <div class="body">
             <div class="grid-2col ggap-20">
               <div class="full">
-                <div class="full mar10-bot">
-                  <h5 class="text-sprocket-dblue"><i class="fas fa-check-circle text-sprocket-green"></i> Achievements Completed</h5>
+              <div class="full mar10-bot mar10-bot">
+                  <h5 class="text-sprocket-dblue">Total Play Time</h5>
                 </div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Play as Allison ( Global )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Triangular Theory of Love A ( Vygotsky )</p></div>
+
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">( <span class="text-extrabold">15 min : 35 sec</span> )</p></div>
+                <div class="full mar20-top mar10-bot">
+                  <h5 class="text-sprocket-dblue">Play Time Ranges</h5>
+                </div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Minimum Play Time ( <span class="text-extrabold">1 min : 15 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Mean Play Time ( <span class="text-extrabold">4 min : 17 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Maximum Play Time ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+
+                
+
+                <div class="full mar10-bot mar20-top">
+                  <h5 class="text-sprocket-dblue">Average Time Per Attempt</h5>
+                </div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">( <span class="text-extrabold">1 min : 22 sec</span> )</p></div>
               </div>
               <div class="full">
                 <div class="full mar10-bot">
-                  <h5 class="text-sprocket-dblue"><i class="fas fa-times-circle text-sprocket-red"></i> Achievements Not Completed</h5>
+                  <h5 class="text-sprocket-dblue">Play Time Means <span  tooltip="This explains what Play Time Means are."><i class="far fa-info-circle text-extrabold text-sprocket-altblue mar5-left"></i></h5>
                 </div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Co-Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Work-Family Balance ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Co-Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Managing Parenting Stress ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Generational Difference ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Triangular Theory of Love B ( Vygotsky )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Home ( <span class="text-extrabold">2 min : 40 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Beach ( <span class="text-extrabold">1 min : 22 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Head Start ( <span class="text-extrabold">0 min : 0 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Halloween ( <span class="text-extrabold">0 min : 27 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Carnival ( <span class="text-extrabold">Not Encountered</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Park ( <span class="text-extrabold">0 min : 0 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Museum ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">House Party ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Military Base ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Airport ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Hospital ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Casino ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Garden ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
+                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Market ( <span class="text-extrabold">22 min : 11 sec</span> )</p></div>
               </div>
             </div>
           </div>
