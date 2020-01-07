@@ -56,7 +56,6 @@
           <div class="full">
             <div class="header-b"><h3 class="text-white">Filter Data</h3></div>
             <div class="full pad20">
-
                 <div class="grid-2col ggap-20">
                 <!-- Assignment Selection -->
                   <div class="full">
@@ -72,7 +71,6 @@
                       </select>
                     </div>
                   </div><!-- END: Assignment Selection -->
-
                   <!-- User Selection -->
                     <div class="full">
                       <div class="full mar5-bot">
@@ -88,7 +86,6 @@
                       </div>
                   </div><!-- END: User Selection -->
                 </div><!-- END: grid-2col -->
-
                 <div class="full mar20-top">
                   <!-- Assignment Selection -->
                     <div class="full mar5-bot">
@@ -114,9 +111,7 @@
                       </select>
                     </div><!-- END: Assignment Selection -->
                 </div>
-
                 <hr class="mar20-top mar20-bot"/>
-
                 <div class="full">
                   <!-- Buttons -->
                   <div class="grid-3col text-center">
@@ -126,7 +121,6 @@
                       <a href="" class="button-red text-white"><h5>Reset Values</h5></a>
                     </div>
                     <div class="full"></div>
-                    
                   </div><!-- Buttons -->
                 </div>
               </div>
@@ -135,12 +129,9 @@
         </div><!-- END: Popup --> 
       </div>
     </section><!-- END: Data Filter -->
-
-
-  <!-- Data Display -->
+    
+  <!-- Global Stats -->
     <section>
-      
-      <!-- Data Display A -->
       <div class="full box-b">
           <div class="header-b">
             <h4 class="text-sprocket-lblue">
@@ -164,80 +155,43 @@
               </div>
             </div>
           </div>
-        </div><!-- Data Display A -->
-
-    </section><!-- END: Data Display -->
-
-  <!-- Statistics Display -->
+    </section><!-- END: Global Stats -->
+  <!-- Assignment Data -->
     <section>
       <div class="full box-b mar30-top">
         <div class="header-b">
           <h3 class="text-white">Assignment Data</h3>
         </div>
         <div class="body">
-
           <div class="grid-3col-data-select mar20-bot">
-            <!-- Assignment Selection -->
+          <!-- Data Selection -->
             <div class="full">
               <select name="DataTypeSelect" id="" class="full">
               <option value="AssignmentA">Chapters Complete Per Unique User</option>
               <option value="AssignmentA">Total Time Spent Per Chapter</option>
               <option value="AssignmentA">Chapter Means</option>
               </select>
-            </div><!-- END: Assignment Selection -->
+            </div><!-- END: Data Selection -->
+          <!-- View Toggles -->
             <a href="#" class="full text-center tab-responsive">
               <i class="fas fa-chart-pie text-sprocket-dblue text-extrabold"></i>
               <p class="text-sprocket-dblue text-extrabold">Graph View</p>
             </a>
- 
             <a href="assignment-03_quest_list-view.php" class="full text-center tab-responsive">
               <i class="fas fa-list text-sprocket-slate"></i>
-              <p class="text-sprocket-slate"> List View</p></a>
-          </div>
-          
-          <!-- <span  tooltip="Level Means are something and something else. Also they are stuff and things and junk as well!"><i class="far fa-info-circle text-extrabold text-sprocket-altblue"></i> -->
-
+              <p class="text-sprocket-slate"> List View</p>
+            </a><!-- END: View Toggles -->
+          </div><!-- END: grid-3col-data-select mar20-bot -->
           <div class="full box-tabs">
-          <div class="body">
-
-
-            <div class="full">
-              <img class="full" src="img/obviousfakegraphisobvious.png"/>
+            <div class="body">
+              <div class="full">
+                <img class="full" src="img/obviousfakegraphisobvious.png"/>
+              </div>
             </div>
-
-            <!-- <div class="grid-2col ggap-20">
-              <div class="full">
-                <div class="full mar10-bot">
-                  <h5 class="text-sprocket-dblue"><i class="fas fa-check-circle text-sprocket-green"></i> Achievements Completed</h5>
-                </div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Play as Allison ( Global )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Triangular Theory of Love A ( Vygotsky )</p></div>
-              </div>
-              <div class="full">
-                <div class="full mar10-bot">
-                  <h5 class="text-sprocket-dblue"><i class="fas fa-times-circle text-sprocket-red"></i> Achievements Not Completed</h5>
-                </div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Co-Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Work-Family Balance ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Co-Parenting ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Managing Parenting Stress ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Generational Difference ( General )</p></div>
-                <div class="full box-c mar10-bot"><p class="text-sprocket-dblue">Triangular Theory of Love B ( Vygotsky )</p></div>
-              </div>
-            </div> -->
-          </div>
-        </div>
-
-                </div><!-- END: Data Display Container -->
-              </div><!-- END: body -->
-            </div><!-- END: box-b -->
-
-          </div><!-- END: grid-3col -->
-        </div><!-- END: body -->
-      </div><!-- Data Display A -->
-    </section><!-- END: Statistics Display -->
-
+          </div><!-- END: full box-tabs -->
+        </div><!-- END: Data Display Container -->
+      </div><!-- END: body -->
+    </section><!-- END: Assignment Data -->
   </div><!-- END: Wrapper -->
 </div><!-- END: Wrapper Content -->
 
