@@ -44,9 +44,7 @@
         </div><!-- END: Dates Container -->
       </div>
     </section><!-- END: Dashboard Header -->
-
     <hr class="mar15-top mar15-bot"/>
-
   <!-- Data Filter -->
     <section>
       <div id="popup1" class="overlay">
@@ -55,7 +53,6 @@
           <div class="full">
             <div class="header-b"><h3 class="text-white">Filter Data</h3></div>
             <div class="full pad20">
-
                 <div class="grid-2col ggap-20">
                 <!-- Assignment Selection -->
                   <div class="full">
@@ -71,7 +68,6 @@
                       </select>
                     </div>
                   </div><!-- END: Assignment Selection -->
-
                   <!-- User Selection -->
                     <div class="full">
                       <div class="full mar5-bot">
@@ -87,7 +83,6 @@
                       </div>
                   </div><!-- END: User Selection -->
                 </div><!-- END: grid-2col -->
-
                 <div class="full mar20-top">
                   <!-- Assignment Selection -->
                     <div class="full mar5-bot">
@@ -113,9 +108,7 @@
                       </select>
                     </div><!-- END: Assignment Selection -->
                 </div>
-
                 <hr class="mar20-top mar20-bot"/>
-
                 <div class="full">
                   <!-- Buttons -->
                   <div class="grid-3col text-center">
@@ -124,8 +117,7 @@
                       <a href="#" class="button-blue text-white"><h5>Apply Filter</h5></a>
                       <a href="assignment-03_quest.php" class="button-red text-white"><h5>Reset Values</h5></a>
                     </div>
-                    <div class="full"></div>
-                    
+                    <div class="full"></div>                    
                   </div><!-- Buttons -->
                 </div>
               </div>
@@ -137,8 +129,7 @@
 
 
   <!-- Data Display -->
-    <section>
-      
+    <section>      
       <!-- Data Display A -->
       <div class="full box-b">
           <div class="header-b">
@@ -164,9 +155,7 @@
             </div>
           </div>
         </div><!-- Data Display A -->
-
     </section><!-- END: Data Display -->
-
   <!-- Statistics Display -->
     <section>
       <div class="full box-b mar30-top">
@@ -196,7 +185,7 @@
           <div class="body">
             <div class="grid-2col ggap-20">
               <div class="full">
-              <div class="full mar10-bot mar10-bot">
+                <div class="full mar10-bot mar10-bot">
                   <h5 class="text-sprocket-dblue">Total Play Time</h5>
                 </div>
 
@@ -240,7 +229,6 @@
         </div><!-- END: body -->
       </div><!-- Data Display A -->
     </section><!-- END: Statistics Display -->
-
   <!-- Heat Maps -->
     <section>
       <div class="full box-b mar30-top">
@@ -249,27 +237,11 @@
         </div>
         <div class="body">
           <div class="full">
-            
           </div>
         </div><!-- END: body -->
       </div><!-- Data Display A -->
     </section><!-- END: Statistics Display -->
-
   </div><!-- END: Wrapper -->
 </div><!-- END: Wrapper Content -->
 
-<!-- Footer -->
-  <div class="wrapper footer-container">
-    <div class="wrapper-content">
-      <section class="pad60">
-        <div class="full">
-          <a href="https://gearlearning.org/" target="_blank">
-            <img class="footer-logo" src="img/gearlearning-alt-dark.svg"/>
-          </a>
-        </div>
-        <div class="full"><p class="text-center">Sprocket Data Systems is developed by <a href="https://gearlearning.org/" target="_blank">Gear Learning</a></p></div>
-        <div class="full"><p class="text-center text-small text-sprocket-slate">© Gear Learning 2019</p></div>
-      </section>
-    </div>
-  </div><!-- END: Footer -->
-
+<?php include('footer.php') ?>
