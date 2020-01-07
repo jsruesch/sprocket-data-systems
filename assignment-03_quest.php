@@ -129,7 +129,7 @@
         </div><!-- END: Popup --> 
       </div>
     </section><!-- END: Data Filter -->
-    
+
   <!-- Global Stats -->
     <section>
       <div class="full box-b">
@@ -185,7 +185,19 @@
           <div class="full box-tabs">
             <div class="body">
               <div class="full">
-                <img class="full" src="img/obviousfakegraphisobvious.png"/>
+                <!-- <img class="full" src="img/obviousfakegraphisobvious.png"><div class="background-sprocket-dblue pad30"></div></img> -->
+
+                <div class="full heatmap-parent heatmap-image_halloween">
+                  <img src="img/halloween-test.png" class="heatmap-hidden full">
+                  <div class="heatmap-graph">
+                    <div class="yaxis"></div>
+                    <div class="xaxis"></div>
+                    <div class="heatmap-blips">
+                      <div class="example-blip"></div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div><!-- END: full box-tabs -->

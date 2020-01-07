@@ -1425,6 +1425,49 @@ select {
 [tooltip][flow^="right"]:hover::after {
   animation: tooltips-horz 300ms ease-out forwards; }
 
+.heatmap-hidden {
+  visibility: hidden; }
+
+.heatmap-parent {
+  background-size: contain !important;
+  position: relative; }
+
+.heatmap-graph {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+  .heatmap-graph .xaxis {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: blue; }
+  .heatmap-graph .yaxis {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background: purple; }
+  .heatmap-graph .heatmap-blips {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+    .heatmap-graph .heatmap-blips .example-blip {
+      height: 50px;
+      width: 50px;
+      background: orange;
+      border: 5px solid black; }
+
+.heatmap-image_graph-test {
+  background: url(../img/halloween-test.png); }
+
+.heatmap-image_halloween {
+  background: url(../img/halloween-test.png); }
+
 /* END: Elements */
 /**
  * =========================================
