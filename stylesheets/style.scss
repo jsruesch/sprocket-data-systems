@@ -375,6 +375,7 @@
 
   // Generic Box Built to have the header and body separated (Used for data display)
   .box-b{
+    
     .body{
       @include full; 
       padding: 20px; 
@@ -782,7 +783,14 @@
 
 
 .heatmap-hidden{ visibility: hidden;  }
-.heatmap-parent{ background-size: contain !important; position: relative; }
+.heatmap-parent{ 
+  background-repeat: no-repeat !important; 
+  background-size: contain !important; 
+  position: relative;
+  height: inherit; 
+
+}
+
 .heatmap-graph{
   position: absolute;
   top: 0;
@@ -793,17 +801,19 @@
   .xaxis{
     position: absolute;
     bottom: 0; 
+    left: 20px;
     height: 20px; 
-    width: 100%; 
-    background: blue;
+    width: calc(100% - 20px);
+    background: blue; //Just to show where it is. Delete when actual numbers are in.
   }
 
   .yaxis{
     position: absolute;
     left: 0; 
+    bottom: 20px; 
     width: 20px; 
-    height: 100%; 
-    background: purple;
+    height: calc(100% - 20px);
+    background: purple; //Just to show where it is. Delete when actual numbers are in.
   }
 
   .heatmap-blips{
@@ -813,17 +823,37 @@
     right: 0;
     left: 0;
     
-    .example-blip{
-      height: 50px; 
-      width: 50px;
-      background: orange;
-      border: 5px solid black;
+    .center-origin-marker{
+      position: absolute; 
+      height: 20px; 
+      width: 20px;
+      border-radius: 10px;
+      background: $sprocket-red;
+      border: 4px solid black;
+      box-shadow: 0px 3px 5px rgba(0,0,0,.5);
+
+      //Center the marker
+      top: 48%;
+      left: 49.25%; 
     }
   }
 }
 
-.heatmap-image_graph-test{ background: url(../img/halloween-test.png); }
-.heatmap-image_halloween{ background: url(../img/halloween-test.png); }
+
+.heatmap-image-home{          background: url(../img/heatmaps/heatmap-home-transparent.png); }
+.heatmap-image-beach{         background: url(../img/heatmaps/heatmap-beach-transparent.png); }
+.heatmap-image_headstart{     background: url(../img/heatmaps/heatmap-headstart-transparent.png); }
+.heatmap-image-halloween{     background: url(../img/heatmaps/heatmap-halloween-transparent.png); }
+.heatmap-image-carnival{      background: url(../img/heatmaps/heatmap-carnival-transparent.png); }
+.heatmap-image-park{          background: url(../img/heatmaps/heatmap-park-transparent.png); }
+.heatmap-image-museum{        background: url(../img/heatmaps/heatmap-museum-transparent.png); }
+.heatmap-image-house-party{   background: url(../img/heatmaps/heatmap-house-party-transparent.png); }
+.heatmap-image-military{      background: url(../img/heatmaps/heatmap-military-transparent.png); }
+.heatmap-image-airport{       background: url(../img/heatmaps/heatmap-airport-transparent.png); }
+.heatmap-image-hospital{      background: url(../img/heatmaps/heatmap-hospital-transparent.png); }
+.heatmap-image-casino{        background: url(../img/heatmaps/heatmap-casino-transparent.png); }
+.heatmap-image-garden{        background: url(../img/heatmaps/heatmap-garden-transparent.png); }
+.heatmap-image-market{        background: url(../img/heatmaps/heatmap-market-transparent.png); }
 
 /* END: Elements */
 

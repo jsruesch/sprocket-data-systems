@@ -185,26 +185,39 @@
           <div class="full box-tabs">
             <div class="body">
               <div class="full">
-                <!-- <img class="full" src="img/obviousfakegraphisobvious.png"><div class="background-sprocket-dblue pad30"></div></img> -->
-
-                <div class="full heatmap-parent heatmap-image_halloween">
-                  <img src="img/halloween-test.png" class="heatmap-hidden full">
-                  <div class="heatmap-graph">
-                    <div class="yaxis"></div>
-                    <div class="xaxis"></div>
-                    <div class="heatmap-blips">
-                      <div class="example-blip"></div>
-                    </div>
-                  </div>
-                </div>
-
+                <img class="full" src="img/obviousfakegraphisobvious.png"><div class="background-sprocket-dblue pad30"></div></img>
               </div>
             </div>
           </div><!-- END: full box-tabs -->
         </div><!-- END: Data Display Container -->
       </div><!-- END: body -->
     </section><!-- END: Assignment Data -->
+  <!-- Heat Maps -->
+    <section>
+      <div class="full box-b mar30-top">
+        <div class="header-b">
+          <h3 class="text-white">Heat Map</h3>
+        </div>
+        <div class="body">
+          <div class="full heatmap-parent heatmap-image-halloween">
+            <img src="img/heatmaps/heatmap-halloween.png" class="heatmap-hidden full">
+            <div class="heatmap-graph">
+              <div class="yaxis"><!-- Place Y Axis values here--></div>
+              <div class="xaxis"><!-- Place X Axis values here--></div>
+              <div class="heatmap-blips">
+                <div class="center-origin-marker"></div>
+                <!-- Heatmap here -->
+              </div>
+            </div>
+          </div>
+        </div><!-- END: body -->
+      </div><!-- Data Display A -->
+    </section><!-- END: Heatmap -->
   </div><!-- END: Wrapper -->
 </div><!-- END: Wrapper Content -->
+
+
+
+
 
 <?php include('footer.php') ?>
