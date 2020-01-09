@@ -175,8 +175,16 @@
     padding-right: 20px; }
 
   /* Game Dashboard Header Components */
+  .game-dates {
+    width: 100%;
+    float: left;
+    margin-top: 10px; }
+
   .game-dates ul {
-    float: left !important; }
+    width: 100%;
+    float: left; }
+    .game-dates ul li {
+      float: left; }
 
   .data-display-border-vertical {
     border-right: none !important; }

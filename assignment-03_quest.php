@@ -14,11 +14,11 @@
     <!-- Game Title -->
       <div class="full">
         <div class="full"><h1 class="left text-extrabold text-sprocket-altblue">Assigment A</h1></div>
-        <div class="full">
+        <!-- <div class="full">
           <a href="" class="left">Quest</a>
           <p class="left mar5-left mar5-right text-sprocket-lblue">|</p>          
           <a href="" class="left">Class A</a>
-        </div>
+        </div> -->
         
       </div><!-- END: Game Title -->
       <!-- Dates Container -->
@@ -40,7 +40,8 @@
                 <button class="button-blue"><i class="far fa-calendar-alt"></i></button>
               </a>
             </li><!-- END: Change Dates -->
-            <li class="mar10-left mar5-top"><a class="button-blue text-white" href="#popup1">Filter Data</a></li>
+            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#popup1"><i class="fas fa-filter mar5-right"></i>Filter </a></li>
+            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#popup1"><i class="far fa-file-export mar5-right"></i> Export</a></li>
           </ul>
         </div><!-- END: Dates Container -->
       </div>
