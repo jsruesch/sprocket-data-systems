@@ -781,14 +781,22 @@
   animation: tooltips-horz 300ms ease-out forwards;
 }
 
+.flex{ display: flex;align-items: center;
+  justify-content: center }
 
-.heatmap-hidden{ visibility: hidden;  }
+.heatmap-hidden{ 
+  visibility: hidden; 
+  max-height: 600px; // Tallest a heatmap can be. 
+}
+
 .heatmap-parent{ 
   background-repeat: no-repeat !important; 
   background-size: contain !important; 
   position: relative;
-  height: inherit; 
+  display: inline-block; 
+  max-width: 100%;
 
+  img{ display: block; height: auto; max-width: 100%; }
 }
 
 .heatmap-graph{
@@ -866,7 +874,7 @@
 
 .loading-spinner{
   position: relative;
-  
+
   -webkit-animation-duration: 0.75s;
   -moz-animation-duration: 0.75s;
   animation-duration: 0.75s;

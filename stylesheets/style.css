@@ -1433,14 +1433,25 @@ select {
 [tooltip][flow^="right"]:hover::after {
   animation: tooltips-horz 300ms ease-out forwards; }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .heatmap-hidden {
-  visibility: hidden; }
+  visibility: hidden;
+  max-height: 600px; }
 
 .heatmap-parent {
   background-repeat: no-repeat !important;
   background-size: contain !important;
   position: relative;
-  height: inherit; }
+  display: inline-block;
+  max-width: 100%; }
+  .heatmap-parent img {
+    display: block;
+    height: auto;
+    max-width: 100%; }
 
 .heatmap-graph {
   position: absolute;

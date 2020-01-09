@@ -203,8 +203,12 @@
           <h3 class="text-white">Heat Map</h3>
         </div>
         <div class="body">
-          <div class="full heatmap-parent heatmap-image-halloween">
-            <img src="img/heatmaps/heatmap-halloween.png" class="heatmap-hidden full">
+          
+        <div class="full">
+
+        <div class="flex">
+          <div class="heatmap-parent heatmap-image-carnival">
+            <img src="img/heatmaps/heatmap-carnival.png" class="heatmap-hidden">
             <div class="heatmap-graph">
               <div class="yaxis"><!-- Place Y Axis values here--></div>
               <div class="xaxis"><!-- Place X Axis values here--></div>
@@ -214,6 +218,11 @@
               </div>
             </div>
           </div>
+        </div>
+          
+          
+        </div>
+          
         </div><!-- END: body -->
       </div><!-- Data Display A -->
     </section><!-- END: Heatmap -->
