@@ -808,19 +808,21 @@
 
   .xaxis{
     position: absolute;
-    bottom: 0; 
-    left: 20px;
+    bottom: -20px; 
+    left: 0;
     height: 20px; 
-    width: calc(100% - 20px);
+    // width: calc(100% - 20px);
+    width: 100%;
     background: blue; //Just to show where it is. Delete when actual numbers are in.
   }
 
   .yaxis{
     position: absolute;
-    left: 0; 
-    bottom: 20px; 
+    left: -20px; 
+    bottom: 0; 
     width: 20px; 
-    height: calc(100% - 20px);
+    // height: calc(100% - 20px);
+    height: 100%; 
     background: purple; //Just to show where it is. Delete when actual numbers are in.
   }
 

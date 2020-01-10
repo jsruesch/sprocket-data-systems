@@ -204,7 +204,7 @@
         </div>
         <div class="body">
           
-        <div class="full">
+        <div class="full pad20-left pad20-bot">
 
         <div class="flex">
           <div class="heatmap-parent heatmap-image-carnival">
