@@ -41,7 +41,7 @@
               </a>
             </li><!-- END: Change Dates -->
             <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#popup1"><i class="fas fa-filter mar5-right"></i>Filter </a></li>
-            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#popup1"><i class="far fa-file-export mar5-right"></i> Export</a></li>
+            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#"><i class="far fa-file-export mar5-right"></i> Export</a></li>
           </ul>
         </div><!-- END: Dates Container -->
       </div>

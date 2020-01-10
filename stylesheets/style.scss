@@ -51,7 +51,8 @@
  p, label{ 
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 1rem; 
+    line-height: 1.25;
    }
 
  ul{ list-style:none; }
@@ -68,13 +69,21 @@
   font-weight: 800;
  }
 
- h1{ font-size: 30px; line-height: 30px; }
- h2{ font-size: 27px; line-height: 27px; }
- h3{ font-size: 24px; line-height: 24px; }
- h4{ font-size: 21px; line-height: 21px; }
- h5{ font-size: 18px; line-height: 18px; }
-//  h4{ line-height: ; }
-//  h5{ line-height: ; }
+//  h1{ font-size: 30px; line-height: 30px; }
+ h1{ font-size: 1.875rem; line-height: 1.25; }
+
+//  h2{ font-size: 27px; line-height: 27px; }
+ h2{ font-size: 1.6875rem; line-height: 1.25; }
+
+//  h3{ font-size: 24px; line-height: 24px; }
+ h3{ font-size: 1.5rem; line-height: 1.25; }
+
+//  h4{ font-size: 21px; line-height: 21px; }
+ h4{ font-size: 1.3125rem; line-height: 1.25; }
+
+//  h5{ font-size: 18px; line-height: 18px; }
+ h5{ font-size: 1.125rem; line-height: 1.25; }
+ 
 
  button{ 
    border: none;
@@ -104,8 +113,11 @@
 
  .rounded-corners{ border-radius: 8px; }
 
- .text-small{ font-size: 14px; }
- .text-medium{ font-size: 19px; }
+//  .text-small{ font-size: 14px; }
+ .text-small{ font-size: .875rem; }
+
+//  .text-medium{ font-size: 19px; }
+ .text-medium{ font-size: 1.1875rem; }
 
  .ol-disc{ 
    list-style: disc;
@@ -173,7 +185,7 @@
 
     .user-info-name{
       @include full; 
-      line-height: 25px; 
+      line-height: 1.25; 
     }
 
     .user-info-details{
@@ -186,7 +198,8 @@
           color: $sprocket-lblue;
           font-family: 'Open Sans', sans-serif;
           font-weight: 500;
-          font-size: 12px;
+          // font-size: 12px;
+          font-size: .75rem;
           float: left; 
         }
       }
@@ -205,7 +218,8 @@
       a{ 
         float: left;
         height: 100%;
-        line-height: 90px;   
+        // line-height: 90px;   
+        line-height: 5.625;   
 
         padding-left: 15px;
         padding-right: 15px;
@@ -239,7 +253,8 @@
           a{
             font-family: 'Open Sans', sans-serif;
             font-weight: 500;
-            font-size: 14px;
+            // font-size: 14px;
+            font-size: .875rem;
             color: $sprocket-lblue; 
 
             &:hover{
@@ -291,7 +306,8 @@
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 1.125rem;
     color: white; 
     text-align: center; 
     
@@ -316,7 +332,8 @@
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 1.125rem;
     color: white; 
     text-align: center; 
 
@@ -345,7 +362,8 @@
       font-weight: 900;
       color: $sprocket-slate; 
       text-align: center; 
-      font-size: 25px; 
+      // font-size: 25px; 
+      font-size: 1.5625rem; 
     }
 
     &:hover{
@@ -409,7 +427,7 @@
 
   .header-b{
     @include full; 
-    padding: 15px; 
+    padding: 10px 15px; 
     border: 2px solid $sprocket-dblue;
     border-radius: 3px 3px 0 0;
     background: $sprocket-dblue;
@@ -438,7 +456,8 @@
   }
 
   .text-feature{
-    font-size: 22px; 
+    // font-size: 22px; 
+    font-size: 1.375rem; 
   }
   
 
@@ -462,18 +481,21 @@
 
     // Smaller version of the blue button used in the date change section.
     .button-blue{
-      font-size: 14px !important;
+      // font-size: 14px !important;
+      font-size: .875rem !important;
       padding: 5px 15px 7px 15px !important;
     }
     
     .dashboard-header{
       font-family: 'Catamaran', sans-serif;
-      font-size: 30px;
+      // font-size: 30px;
+      font-size: 1.875rem;
       font-weight: 900;
       // text-transform: uppercase; 
     }
     .dashboard-dates{
-      p{ line-height: 35px; }
+      // p{ line-height: 35px; }
+      p{ line-height: 2; }
     }
 
     // Vertical divider between the Home Icon Button and Game Name
@@ -610,12 +632,18 @@
     color: $sprocket-altblue;
   }
 
-  .fa-gamepad{ font-size: 80px; }
-  .fa-user-friends{ font-size: 80px }
-  .fa-file-alt{ font-size: 80px; }
+  // .fa-gamepad{ font-size: 80px; }
+  .fa-gamepad{ font-size: 5rem; }
+
+  // .fa-user-friends{ font-size: 80px }
+  .fa-user-friends{ font-size: 5rem }
+
+  // .fa-file-alt{ font-size: 80px; }
+  .fa-file-alt{ font-size: 5rem; }
 }
 
-.fa-calendar-alt{ font-size: 18px; }
+// .fa-calendar-alt{ font-size: 18px; }
+.fa-calendar-alt{ font-size: 1.125rem; }
 
 .date-range-container{
     display: flex;
@@ -669,9 +697,10 @@
   color: #fff;
   font-weight: 600 !important; 
   text-align: left; 
-  line-height: 20px; 
+  line-height: 1.25; 
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px; 
+  // font-size: 16px; 
+  font-size: 1rem; 
   z-index: 1000; /* absurdity 2 */
 }
 

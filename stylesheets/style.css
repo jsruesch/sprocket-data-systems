@@ -200,7 +200,7 @@
     padding-left: 10px; }
 
   .navlink-icon {
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding-right: 0 !important; }
 
   .navlink-label {
@@ -221,7 +221,7 @@
     width: 100%;
     float: left;
     text-align: center !important;
-    font-size: 20px !important; } }
+    font-size: 1.25rem !important; } }
 /**
  * =========================================
  * Setup
@@ -229,8 +229,7 @@
  */
 h1, h2, h3, h4, h5 {
   margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  line-height: auto; }
+  margin-bottom: 0 !important; }
 
 .container-fluid {
   padding-left: 0 !important;
@@ -249,7 +248,7 @@ h1, h2, h3, h4, h5 {
   text-align: right; }
 
 .text-small {
-  font-size: 13px; }
+  font-size: .8125rem; }
 
 /* End Bootstrap Overrides */
 /* Padding Sets */
@@ -786,7 +785,8 @@ a {
 p, label {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  font-size: 16px; }
+  font-size: 1rem;
+  line-height: 1.25; }
 
 ul {
   list-style: none; }
@@ -803,24 +803,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800; }
 
 h1 {
-  font-size: 30px;
-  line-height: 30px; }
+  font-size: 1.875rem;
+  line-height: 1.25; }
 
 h2 {
-  font-size: 27px;
-  line-height: 27px; }
+  font-size: 1.6875rem;
+  line-height: 1.25; }
 
 h3 {
-  font-size: 24px;
-  line-height: 24px; }
+  font-size: 1.5rem;
+  line-height: 1.25; }
 
 h4 {
-  font-size: 21px;
-  line-height: 21px; }
+  font-size: 1.3125rem;
+  line-height: 1.25; }
 
 h5 {
-  font-size: 18px;
-  line-height: 18px; }
+  font-size: 1.125rem;
+  line-height: 1.25; }
 
 button {
   border: none; }
@@ -858,10 +858,10 @@ button {
   border-radius: 8px; }
 
 .text-small {
-  font-size: 14px; }
+  font-size: .875rem; }
 
 .text-medium {
-  font-size: 19px; }
+  font-size: 1.1875rem; }
 
 .ol-disc {
   list-style: disc;
@@ -914,7 +914,7 @@ select {
   .user-info-container .user-info-name {
     width: 100%;
     float: left;
-    line-height: 25px; }
+    line-height: 1.25; }
   .user-info-container .user-info-details {
     width: 100%;
     float: left; }
@@ -924,7 +924,7 @@ select {
         color: #bdc7e5;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: .75rem;
         float: left; }
 
 .navigation-links {
@@ -940,7 +940,7 @@ select {
     .navigation-links li a {
       float: left;
       height: 100%;
-      line-height: 90px;
+      line-height: 5.625;
       padding-left: 15px;
       padding-right: 15px; }
       .navigation-links li a:hover {
@@ -959,7 +959,7 @@ select {
   .logged-in-nav .nav-links ul li a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: .875rem;
     color: #bdc7e5; }
     .logged-in-nav .nav-links ul li a:hover {
       color: white; }
@@ -1000,7 +1000,7 @@ select {
   padding: 10px 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
   text-align: center; }
   .button-blue:hover {
@@ -1025,7 +1025,7 @@ select {
   padding: 10px 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
   text-align: center; }
   .button-red:hover {
@@ -1057,7 +1057,7 @@ select {
     font-weight: 900;
     color: #666d75;
     text-align: center;
-    font-size: 25px; }
+    font-size: 1.5625rem; }
   .button-large:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1107,7 +1107,7 @@ select {
 .header-b {
   width: 100%;
   float: left;
-  padding: 15px;
+  padding: 10px 15px;
   border: 2px solid #1d1835;
   border-radius: 3px 3px 0 0;
   background: #1d1835; }
@@ -1135,7 +1135,7 @@ select {
     color: white !important; }
 
 .text-feature {
-  font-size: 22px; }
+  font-size: 1.375rem; }
 
 .dashboard-header-container .game-header {
   float: left; }
@@ -1148,14 +1148,14 @@ select {
     .dashboard-header-container .game-dates ul li {
       float: left; }
 .dashboard-header-container .button-blue {
-  font-size: 14px !important;
+  font-size: .875rem !important;
   padding: 5px 15px 7px 15px !important; }
 .dashboard-header-container .dashboard-header {
   font-family: 'Catamaran', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 900; }
 .dashboard-header-container .dashboard-dates p {
-  line-height: 35px; }
+  line-height: 2; }
 .dashboard-header-container .divider {
   margin-top: 8px;
   height: 30px;
@@ -1276,14 +1276,14 @@ select {
     -o-transition: all 0.3s ease;
     color: #123467; }
   .track-select-icon .fa-gamepad {
-    font-size: 80px; }
+    font-size: 5rem; }
   .track-select-icon .fa-user-friends {
-    font-size: 80px; }
+    font-size: 5rem; }
   .track-select-icon .fa-file-alt {
-    font-size: 80px; }
+    font-size: 5rem; }
 
 .fa-calendar-alt {
-  font-size: 18px; }
+  font-size: 1.125rem; }
 
 .date-range-container {
   display: flex;
@@ -1335,9 +1335,9 @@ select {
   color: #fff;
   font-weight: 600 !important;
   text-align: left;
-  line-height: 20px;
+  line-height: 1.25;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   z-index: 1000;
   /* absurdity 2 */ }
 

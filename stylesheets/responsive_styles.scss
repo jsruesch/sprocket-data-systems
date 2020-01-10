@@ -26,7 +26,8 @@
     .dd-item-b{ padding: 0 15px 15px 15px !important; }
 
     .navigation-content{ width: 100% !important; padding-left: 10px;  }
-    .navlink-icon{ font-size: 25px; padding-right: 0 !important; }
+    // .navlink-icon{ font-size: 25px; padding-right: 0 !important; }
+    .navlink-icon{ font-size: 1.5625rem; padding-right: 0 !important; }
     .navlink-label{ display: none; }
 
     .footer-container{
@@ -42,7 +43,8 @@
       i{
         @include full; 
         text-align: center !important;  
-        font-size: 20px !important; 
+        // font-size: 20px !important; 
+        font-size: 1.25rem !important; 
       }
     }
 

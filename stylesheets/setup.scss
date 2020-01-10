@@ -7,7 +7,7 @@
  h1,h2,h3,h4,h5{
      margin-top: 0 !important;
      margin-bottom: 0 !important;
-     line-height: auto;
+    //  line-height: auto;
  }
 
  .container-fluid{
@@ -22,7 +22,8 @@
  .text-center{ text-align: center; }
  .text-left{ text-align: left; }
  .text-right{ text-align: right; }
- .text-small{ font-size: 13px; }
+//  .text-small{ font-size: 13px; }
+ .text-small{ font-size: .8125rem; }
 
  /* End Bootstrap Overrides */
 
