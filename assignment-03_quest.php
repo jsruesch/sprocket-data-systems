@@ -186,9 +186,9 @@
           <div class="full box-tabs">
             <div class="body">
               <div class="full">
-                <!-- <img class="full" src="img/obviousfakegraphisobvious.png"><div class="background-sprocket-dblue pad30"></div></img> -->
+                <img class="full" src="img/obviousfakegraphisobvious.png"><div class="background-sprocket-dblue pad30"></div></img>
               
-                <?php include('loading-spinner.php') ?>
+                
 
               </div>
             </div>

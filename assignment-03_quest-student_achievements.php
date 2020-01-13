@@ -327,6 +327,20 @@
         </div>
         <div class="body">
           <div class="full">
+
+          <div class="flex mar30-bot">
+          <div class="heatmap-parent heatmap-image-carnival">
+            <img src="img/heatmaps/heatmap-carnival.png" class="heatmap-hidden">
+            <div class="heatmap-graph">
+              <div class="yaxis"><!-- Place Y Axis values here--></div>
+              <div class="xaxis"><!-- Place X Axis values here--></div>
+              <div class="heatmap-blips">
+                <div class="center-origin-marker"></div>
+                <!-- Heatmap here -->
+              </div>
+            </div>
+          </div>
+        </div>
             
           </div>
         </div><!-- END: body -->
