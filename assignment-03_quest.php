@@ -204,14 +204,14 @@
         </div>
         <div class="body">
           
-        <div class="full pad20-left pad20-bot">
+        <div class="full pad30">
 
         <div class="flex">
           <div class="heatmap-parent heatmap-image-carnival">
             <img src="img/heatmaps/heatmap-carnival.png" class="heatmap-hidden">
             <div class="heatmap-graph">
-              <div class="yaxis"><!-- Place Y Axis values here--></div>
-              <div class="xaxis"><!-- Place X Axis values here--></div>
+              <!-- <div class="yaxis"></div>
+              <div class="xaxis"></div> -->
               <div class="heatmap-blips">
                 <div class="center-origin-marker"></div>
                 <!-- Heatmap here -->
