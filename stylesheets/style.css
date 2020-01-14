@@ -1490,6 +1490,25 @@ select {
       top: 48%;
       left: 49.25%; }
 
+.rv-hint {
+  padding: 20px;
+  border-radius: .3ch;
+  box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+  background: rgba(14, 11, 30, 0.65);
+  color: #fff;
+  font-weight: 600 !important;
+  text-align: left;
+  line-height: 1.25;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+.rv-xy-plot__axis__tick__text {
+  color: #1d1835;
+  font-weight: 800 !important;
+  line-height: 1.25;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem; }
+
 .heatmap-image-home {
   background: url(../img/heatmaps/heatmap-home-transparent.png); }
 

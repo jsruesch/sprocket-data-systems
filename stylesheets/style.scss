@@ -841,7 +841,6 @@
     bottom: -20px; 
     left: 0;
     height: 20px; 
-    // width: calc(100% - 20px);
     width: 100%;
     background: blue; //Just to show where it is. Delete when actual numbers are in.
   }
@@ -879,6 +878,26 @@
   }
 }
 
+.rv-hint{
+  padding: 20px;
+  border-radius: .3ch;
+  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+  background: rgba(14,11,30,.65);
+  color: #fff;
+  font-weight: 600 !important; 
+  text-align: left; 
+  line-height: 1.25; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; 
+}
+
+.rv-xy-plot__axis__tick__text {
+  color: $sprocket-dblue;
+  font-weight: 800 !important; 
+  line-height: 1.25; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem; 
+}
 
 .heatmap-image-home{          background: url(../img/heatmaps/heatmap-home-transparent.png); }
 .heatmap-image-beach{         background: url(../img/heatmaps/heatmap-beach-transparent.png); }
