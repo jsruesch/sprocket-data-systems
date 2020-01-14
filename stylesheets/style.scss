@@ -901,6 +901,14 @@
   font-size: .9rem; 
 }
 
+.legend-red{  color: #FF0000; }
+.legend-blue{ color: #1000EE; }
+.heatmap-legend-gradient{
+  @include full;
+  height: 9px;
+  background: linear-gradient(90deg, rgba(16,0,238,1) 0%, rgba(255,0,0,1) 100%);
+}
+
 .heatmap-image-home{          background: url(../img/heatmaps/heatmap-home-transparent.png); }
 .heatmap-image-beach{         background: url(../img/heatmaps/heatmap-beach-transparent.png); }
 .heatmap-image_headstart{     background: url(../img/heatmaps/heatmap-headstart-transparent.png); }
