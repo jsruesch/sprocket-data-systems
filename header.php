@@ -23,7 +23,6 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600,700,800,900|Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
 
     <!-- FontAwesome -->
-    <!-- <script src="https://kit.fontawesome.com/f41877d206.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/15bcd19851.js" crossorigin="anonymous"></script>
 
 </head>

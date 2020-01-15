@@ -208,8 +208,10 @@
   }
 
   .navigation-links{
-    float: right;
-    height: 100%;  
+    float:right;
+    height: 100%; 
+    display: flex;
+    align-items: center; 
 
     li{
       @include transition; 
@@ -1005,6 +1007,28 @@
   }
 }
 
+.checkbox-list{
+
+  .checkbox-list-item{
+    padding: 9px 10px; 
+    margin: 5px 0;
+    background: #EBEDF0;
+    border-radius: 5px;
+    float:left; 
+  }
+
+  input{
+    float: left; 
+    margin: 3px 10px 0 0;
+  }
+
+  p{
+    font-size: .95rem;
+    font-weight: 600;
+    color: $sprocket-dblue;  
+  }
+  
+}
 
 /* END: Elements */
 
@@ -1099,4 +1123,27 @@
       margin: 0;
     }
   }
+}
+
+.filter-content{
+  position: absolute;
+  top: 55px;
+  bottom: 100px;
+  left: 0;
+  right: 0;  
+  overflow-y: scroll;
+  overflow-x: hidden; 
+
+  .button-blue{
+    font-size: .875rem!important;
+    padding: 5px 15px 7px 15px!important;
+  }
+}
+
+.filter-button-container{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  background: white; 
+  border-radius: 5px;   
 }

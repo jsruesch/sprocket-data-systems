@@ -21,33 +21,13 @@
         </div> -->
         
       </div><!-- END: Game Title -->
-      <!-- Dates Container -->
-        <div class="game-dates date-range-container">
-          <ul>
-          <!-- Dates -->
-            <li>
-              <div class="dashboard-dates">
-                <p>
-                  <span class="text-extrabold text-sprocket-dblue">10.6.2019</span> 
-                  <span class="text-extrabold text-sprocket-slate">-</span> 
-                  <span class="text-extrabold text-sprocket-dblue">6.14.2019</span>
-                </p>
-              </div>
-            </li><!-- END: Dates -->
-          <!-- Change Dates -->
-            <li class="mar10-left">
-              <a href="">
-                <button class="button-blue"><i class="far fa-calendar-alt"></i></button>
-              </a>
-            </li><!-- END: Change Dates -->
-            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#popup1"><i class="fas fa-filter mar5-right"></i>Filter </a></li>
-            <li class="mar5-left mar5-top"><a class="button-blue text-white" href="#"><i class="far fa-file-export mar5-right"></i> Export</a></li>
-          </ul>
-        </div><!-- END: Dates Container -->
+      
       </div>
     </section><!-- END: Dashboard Header -->
 
     <hr class="mar15-top mar15-bot"/>
+
+
 
   <!-- Data Filter -->
     <section>
@@ -56,80 +36,71 @@
         <div class="popup">
           <div class="full">
             <div class="header-b"><h3 class="text-white">Filter Data</h3></div>
-            <div class="full pad20">
-                <div class="grid-2col ggap-20">
-                <!-- Assignment Selection -->
-                  <div class="full">
-                    <div class="full mar5-bot">
-                      <label for="AssignmentSelect"><h5 class="text-sprocket-slate">Select Assignment</h5></label>
-                    </div>
-                    <div class="full">
-                      <select name="AssignemntSelect" id="" class="full">
-                        <option value="AssignmentA">Assignment A</option>
-                        <option value="AssignmentB">Assignment B</option>
-                        <option value="AssignmentC">Assignment C</option>
-                        <option value="AssignmentD">Assignment D</option>
-                      </select>
-                    </div>
-                  </div><!-- END: Assignment Selection -->
-                  <!-- User Selection -->
-                    <div class="full">
-                      <div class="full mar5-bot">
-                        <label for="UserSelect"><h5 class="text-sprocket-slate">Select Students</h5></label>
-                      </div>
-                      <div class="full">
-                        <select name="UserSelect" id="" class="full">
-                          <option value="FullClass">All Students</option>
-                          <option value="UserA">Student A</option>
-                          <option value="UserB">Student B</option>
-                          <option value="UserC">Student C</option>
-                        </select>
-                      </div>
-                  </div><!-- END: User Selection -->
-                </div><!-- END: grid-2col -->
-                <div class="full mar20-top">
-                  <!-- Assignment Selection -->
-                    <div class="full mar5-bot">
-                      <label for="LevelSelect"><h5 class="text-sprocket-slate">Select a Level</h5></label>
-                    </div>
-                    <div class="full">
-                      <select name="LevelSelect" id="" class="full">
-                      <option value="AssignmentA">All Levels</option>
-                        <option value="AssignmentA">Home</option>
-                        <option value="AssignmentA">Beach</option>
-                        <option value="AssignmentA">Head Start</option>
-                        <option value="AssignmentA">Halloween</option>
-                        <option value="AssignmentA">Carnival</option>
-                        <option value="AssignmentA">Park</option>
-                        <option value="AssignmentA">Museum</option>
-                        <option value="AssignmentA">House Party</option>
-                        <option value="AssignmentA">Military Base</option>
-                        <option value="AssignmentA">Airport</option>
-                        <option value="AssignmentA">Hospital</option>
-                        <option value="AssignmentA">Casino</option>
-                        <option value="AssignmentA">Garden</option>
-                        <option value="AssignmentA">Grocery Store</option>
-                      </select>
-                    </div><!-- END: Assignment Selection -->
-                </div>
-                <hr class="mar20-top mar20-bot"/>
+            <div class="full pad20 filter-content">
+            <!-- Date Range -->
                 <div class="full">
-                  <!-- Buttons -->
-                  <div class="grid-3col text-center">
-                    <div class="full"></div>
-                    <div class="full grid-2col ggap-20">
-                      <a href="assignment-03_quest-student_achievements.php" class="button-blue text-white"><h5>Apply Filter</h5></a>
-                      <a href="" class="button-red text-white"><h5>Reset Values</h5></a>
+                  <div class="left">
+                      <a href="">
+                        <button class="button-blue"><i class="far fa-calendar-alt"></i></button>
+                      </a>
                     </div>
-                    <div class="full"></div>
-                  </div><!-- Buttons -->
-                </div>
+                  <div class="left mar5-top mar5-left">
+                      <p>
+                        <span class="text-extrabold text-sprocket-dblue">10.6.2019</span> 
+                        <span class="text-extrabold text-sprocket-slate">-</span> 
+                        <span class="text-extrabold text-sprocket-dblue">6.14.2019</span>
+                      </p>
+                    </div>
+                </div><!-- END:  Date Range -->
+              <!-- Quest Select -->
+                <div class="full mar20-top">
+                  <div class="full mar5-bot">
+                    <label for="QuestSelect"><h5 class="text-sprocket-slate">Select a Quest</h5></label>
+                  </div>
+                  <div class="full checkbox-list">
+                    <form name="QuestSelect" id="" class="full">
+                      <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike" checked="true"> <p class="left">All Quests</p></div>
+                      <div class="full grid-2col ggap-10">
+                        <div class="full">
+                          <div class="full checkbox-list-item"><input type="checkbox" name="infancy" value="Infancy"> <p class="left">Infancy</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Head Start</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Beach</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Halloween</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Carnival</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Park</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Museum</p></div>
+                        </div>
+                        <div class="full">
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">House Party</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Military</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Airport</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Hospital</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Casino</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Garden</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Grocery Store</p></div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div><!-- END: Quest Select -->
               </div>
+            <!-- Buttons -->
+              <div class="full filter-button-container">
+                <div class="grid-3col text-center">
+                  <div class="full"></div>
+                  <div class="grid-2col ggap-20 pad20">
+                    <a href="assignment-03_quest-student_achievements.php" class="button-blue text-white"><h5>Apply Filter</h5></a>
+                    <a href="" class="button-red text-white"><h5>Reset Values</h5></a>
+                  </div>
+                  <div class="full"></div>
+                </div>
+              </div><!-- END: Buttons -->
             </div><!-- END: full -->
           <a class="close" href="#"><i class="fas fa-times text-sprocket-lblue"></i></a>
         </div><!-- END: Popup --> 
       </div>
     </section><!-- END: Data Filter -->
+
 
   <!-- Global Stats -->
     <section>
@@ -217,7 +188,6 @@
             <div class="full">
               <p class="text-sprocket-dblue text-right">More Time Spent <i class="fas fa-square legend-red"></i></p>
             </div>
-            
           </div>
         </div><!-- END: Heatmap Legend -->
           
