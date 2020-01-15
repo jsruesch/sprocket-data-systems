@@ -63,21 +63,21 @@
                       <div class="full grid-2col ggap-10">
                         <div class="full">
                           <div class="full checkbox-list-item"><input type="checkbox" name="infancy" value="Infancy"> <p class="left">Infancy</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Head Start</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Beach</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Halloween</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Carnival</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Park</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Museum</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="headstart" value="Head Start"> <p class="left">Head Start</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="beach" value="Beach"> <p class="left">Beach</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="halloween" value="Halloween"> <p class="left">Halloween</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="carnival" value="Carnival"> <p class="left">Carnival</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="park" value="Park"> <p class="left">Park</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="museum" value="Museum"> <p class="left">Museum</p></div>
                         </div>
                         <div class="full">
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">House Party</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Military</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Airport</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Hospital</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Casino</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Garden</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike"> <p class="left">Grocery Store</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="houseparty" value="House Party"> <p class="left">House Party</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="military" value="Military"> <p class="left">Military</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="airport" value="Airport"> <p class="left">Airport</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="hospital" value="Hospital"> <p class="left">Hospital</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="casino" value="Casino"> <p class="left">Casino</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="garden" value="Garden"> <p class="left">Garden</p></div>
+                          <div class="full checkbox-list-item"><input type="checkbox" name="grocerystore" value="Grocery Store"> <p class="left">Grocery Store</p></div>
                         </div>
                       </div>
                     </form>
