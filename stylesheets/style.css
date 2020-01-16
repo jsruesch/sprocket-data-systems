@@ -1519,6 +1519,10 @@ select {
 .legend-red {
   color: #FF0000; }
 
+.legend-red-transparent {
+  color: #FF0000;
+  opacity: .55; }
+
 .legend-blue {
   color: #1000EE; }
 
@@ -1526,7 +1530,7 @@ select {
   width: 100%;
   float: left;
   height: 9px;
-  background: linear-gradient(90deg, #1000ee 0%, red 100%); }
+  background: linear-gradient(90deg, rgba(255, 0, 0, 0.55) 0%, red 100%); }
 
 .heatmap-image-home {
   background: url(../img/heatmaps/heatmap-home-transparent.png); }

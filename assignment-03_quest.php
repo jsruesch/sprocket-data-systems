@@ -234,14 +234,14 @@
           <div class="heatmap-legend-gradient mar5-bot"></div>
           <div class="full grid-2col grid-2col-forcemobile">
             <div class="full">
-              <p class="text-sprocket-dblue text-left text-bold"><i class="fas fa-square legend-blue"></i> Less Time Spent</p>
+              <p class="text-sprocket-dblue text-left text-bold"><i class="fas fa-square legend-red-transparent"></i> Less Time Spent</p>
             </div>
             <div class="full">
               <p class="text-sprocket-dblue text-right text-bold">More Time Spent <i class="fas fa-square legend-red"></i></p>
             </div>
           </div>
           <div class="full mar15-top">
-            <p class="text-sprocket-dblue">Every five seconds the player location is reported to Sprocket. The longer a player was reported in a given location, the more red the marker will display. Relative to the most red marker, other markers on the heatmap are displayed more blue the greater the discrepancy between their respective values.</p>
+            <p class="text-sprocket-dblue">Player locations are recorded every 5 seconds based on the players’ locations within a grid overlaid on the level.  More intense colors represent more time spent in that location.</p>
           </div>
         </div><!-- END: Heatmap Legend -->
           
