@@ -4,9 +4,13 @@
    <div class="navigation-content">
       <!-- Nav Logo -->
       <div class="navigation-logo">
-         <a href="https://gearlearning.org/" target="_blank" class="left"><img src="img/gearlearning-icon-light.svg"/></a>
+         <a href="https://gearlearning.org/" target="_blank" class="left" title="Gear Learning">
+            <img src="img/gearlearning-icon-light.svg" alt="Gear Learning"/>
+         </a>
          <div class="nav-divider-vertical left mar15-left mar15-right"></div>
-         <a href="dashboard_choose-track.php" class="left"><img src="img/sprocket-logo-dark-01.svg"/></a>
+         <a href="dashboard_choose-track.php" class="left" title="Sprocket Data Systems">
+            <img src="img/sprocket-logo-dark-01.svg" alt="Sprocket Data Systems"/>
+         </a>
       </div><!-- END: Nav Logo -->
 
       <?php include('nav-links.php') ?>

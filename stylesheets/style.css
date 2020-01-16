@@ -831,6 +831,9 @@ button {
   background: #1d1835;
   color: white; }
 
+fieldset {
+  border: none; }
+
 /* END: Global Styles */
 /**
  * =========================================

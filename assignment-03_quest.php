@@ -57,31 +57,75 @@
                   <div class="full mar5-bot">
                     <label for="QuestSelect"><h5 class="text-sprocket-slate">Select a Quest</h5></label>
                   </div>
-                  <div class="full checkbox-list">
-                    <form name="QuestSelect" id="" class="full">
-                      <div class="full checkbox-list-item"><input type="checkbox" name="vehicle" value="Bike" checked="true"> <p class="left">All Quests</p></div>
+                  <fieldset class="full checkbox-list">
+                    <form id="QuestSelectFilter" name="QuestSelect" class="full">
+                      <div class="full checkbox-list-item">
+                        <input type="checkbox" name="allquests" value="All Quests" checked="true"> <p class="left">All Quests</p>
+                      </div>
                       <div class="full grid-2col ggap-10">
                         <div class="full">
-                          <div class="full checkbox-list-item"><input type="checkbox" name="infancy" value="Infancy"> <p class="left">Infancy</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="headstart" value="Head Start"> <p class="left">Head Start</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="beach" value="Beach"> <p class="left">Beach</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="halloween" value="Halloween"> <p class="left">Halloween</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="carnival" value="Carnival"> <p class="left">Carnival</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="park" value="Park"> <p class="left">Park</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="museum" value="Museum"> <p class="left">Museum</p></div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="infancy" value="Infancy">
+                            <label class="left" for="Infancy">Infancy</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="headstart" value="Head Start">
+                            <label class="left" for="Head Start">Head Start</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="beach" value="Beach">
+                            <label class="left" for="Beach">Beach</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="halloween" value="Halloween">
+                            <label class="left" for="Halloween">Halloween</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="carnival" value="Carnival">
+                            <label class="left" for="Carnival">Carnival</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="park" value="Park">
+                            <label class="left" for="Park">Park</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="museum" value="Museum">
+                            <label class="left" for="Museum">Museum</label>
+                          </div>
                         </div>
                         <div class="full">
-                          <div class="full checkbox-list-item"><input type="checkbox" name="houseparty" value="House Party"> <p class="left">House Party</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="military" value="Military"> <p class="left">Military</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="airport" value="Airport"> <p class="left">Airport</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="hospital" value="Hospital"> <p class="left">Hospital</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="casino" value="Casino"> <p class="left">Casino</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="garden" value="Garden"> <p class="left">Garden</p></div>
-                          <div class="full checkbox-list-item"><input type="checkbox" name="grocerystore" value="Grocery Store"> <p class="left">Grocery Store</p></div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="houseparty" value="House Party">
+                            <label class="left" for="House Party">House Party</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="military" value="Military">
+                            <label class="left" for="Military">Military</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="airport" value="Airport">
+                            <label class="left" for="Airport">Airport</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="hospital" value="Hospital">
+                            <label class="left" for="Hospital">Hospital</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="casino" value="Casino">
+                            <label class="left" for="Casino">Casino</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="garden" value="Garden">
+                            <label class="left" for="Garden">Garden</label>
+                          </div>
+                          <div class="full checkbox-list-item">
+                            <input type="checkbox" name="grocerystore" value="Grocery Store">
+                            <label class="left" for="Grocery Store">Grocery Store</label>
+                          </div>
                         </div>
                       </div>
                     </form>
-                  </div>
+                  </fieldset>
                 </div><!-- END: Quest Select -->
               </div>
             <!-- Buttons -->
