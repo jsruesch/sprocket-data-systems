@@ -222,16 +222,19 @@
       <!-- Heatmap Legend -->
         <div class="full">
           <div class="full mar10-bot">
-            <h5 class="text-sprocket-dblue">Relative Time Spent <span  tooltip="Every five seconds the player location is reported to Sprocket. The longer a player was reported in a given location, the more red the marker will display. Relative to the most red marker, other markers on the heatmap are displayed more blue the greater the discrepancy between their respective values."><i class="far fa-info-circle text-extrabold text-sprocket-altblue mar5-left"></i></h5>            
+            <h5 class="text-sprocket-dblue">Relative Time Spent</h5>            
           </div>
           <div class="heatmap-legend-gradient mar5-bot"></div>
           <div class="full grid-2col grid-2col-forcemobile">
             <div class="full">
-              <p class="text-sprocket-dblue text-left"><i class="fas fa-square legend-blue"></i> Less Time Spent</p>
+              <p class="text-sprocket-dblue text-left text-bold"><i class="fas fa-square legend-blue"></i> Less Time Spent</p>
             </div>
             <div class="full">
-              <p class="text-sprocket-dblue text-right">More Time Spent <i class="fas fa-square legend-red"></i></p>
+              <p class="text-sprocket-dblue text-right text-bold">More Time Spent <i class="fas fa-square legend-red"></i></p>
             </div>
+          </div>
+          <div class="full mar15-top">
+            <p class="text-sprocket-dblue">Every five seconds the player location is reported to Sprocket. The longer a player was reported in a given location, the more red the marker will display. Relative to the most red marker, other markers on the heatmap are displayed more blue the greater the discrepancy between their respective values.</p>
           </div>
         </div><!-- END: Heatmap Legend -->
           
