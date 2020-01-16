@@ -22,6 +22,13 @@
         
       </div><!-- END: Game Title -->
       
+      <!-- Dates Container -->
+      <div class="game-dates date-range-container">
+          <ul>
+            <li class="mar5-top"><a class="button-blue text-white" href="#popup1"><i class="fas fa-filter mar5-right"></i> Filter</a></li>
+            <li class="mar10-left mar5-top"><a class="button-blue text-white mar5-right" href="#popup1"><i class="far fa-file-export"></i> Export</a></li>
+          </ul>
+        </div><!-- END: Dates Container -->
       </div>
     </section><!-- END: Dashboard Header -->
 
