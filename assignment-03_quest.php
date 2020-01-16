@@ -241,7 +241,7 @@
             </div>
           </div>
           <div class="full mar15-top">
-            <p class="text-sprocket-dblue">Player locations are recorded every 5 seconds based on the players’ locations within a grid overlaid on the level.  More intense colors represent more time spent in that location.</p>
+            <p class="text-sprocket-dblue">Heatmaps are generated based on collecting the players’ locations every 5 seconds, then represented as a grid overlayed on the quest level.  More intense grid colors represent more time spent in that location.</p>
           </div>
         </div><!-- END: Heatmap Legend -->
           
