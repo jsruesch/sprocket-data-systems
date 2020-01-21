@@ -327,6 +327,31 @@
     }
   }
 
+  .button-blue-small{
+    @include rounded_corners;
+    @include transition;
+
+    background: $sprocket-altblue;
+    padding: 5px 15px 5px 15px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    // font-size: 18px;
+    font-size: .875rem;
+    color: white; 
+    text-align: center; 
+    
+    &:hover{
+      @include transition; 
+      border: none;
+      background: #164893; 
+    }  
+
+    &:active{
+      background: $sprocket-altblue;
+    }
+  }
+
   // Full Size Red Button
   .button-red{
     @include rounded_corners;

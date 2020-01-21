@@ -1018,6 +1018,31 @@ select {
   .button-blue:active {
     background: #123467; }
 
+.button-blue-small {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  background: #123467;
+  padding: 5px 15px 5px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: .875rem;
+  color: white;
+  text-align: center; }
+  .button-blue-small:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: none;
+    background: #164893; }
+  .button-blue-small:active {
+    background: #123467; }
+
 .button-red {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
