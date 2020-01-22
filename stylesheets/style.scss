@@ -931,12 +931,12 @@
 }
 
 .legend-red{  color: #FF0000; }
-.legend-red-transparent{  color: #FF0000; opacity: .55; }
+.legend-red-transparent{  color: #FF0000; opacity: .35; }
 .legend-blue{ color: #1000EE; }
 .heatmap-legend-gradient{
   @include full;
   height: 9px;
-  background: linear-gradient(90deg, rgba(255,0,0,0.55) 0%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(255,0,0,0.35) 0%, rgba(255,0,0,1) 100%);
 }
 
 .heatmap-image-home{          background: url(../img/heatmaps/heatmap-home-transparent.png); }
