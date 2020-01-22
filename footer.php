@@ -1,4 +1,4 @@
-<a href="#" class="back-to-top"><i class="fas fa-caret-up mar10-right text-sprocket-lblue"></i>Back to Top</a>
+<a href="#" class="back-to-top"><i class="fas fa-caret-up text-sprocket-lblue"></i></a>
 
 <!-- Footer -->
 <div class="wrapper footer-container">
