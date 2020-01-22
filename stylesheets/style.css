@@ -1681,6 +1681,21 @@ select {
   font-weight: 600;
   color: #1d1835; }
 
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: #1d1835;
+  font-size: 1rem;
+  padding: 10px 20px;
+  display: none;
+  border-radius: 5px; }
+  .back-to-top:hover {
+    background: #123467;
+    color: white; }
+
 /* END: Elements */
 /**
  * =========================================
