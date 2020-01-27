@@ -155,12 +155,29 @@
 
   <!-- Global Stats -->
     <section>
+
+    <!-- Filtered Data -->
+      <div class="full mar20-bot">
+        <div class="full mar5-bot"><h4 class="text-sprocket-altblue text-extrabold">Data Results For: </h4></div>
+        <div class="full box-c mar5-bot">
+          <h5 class="text-sprocket-dblue"><span class="text-sprocket-slate">Dates :</span> Jan 20, 2020 - Jan 27, 2020</h5>
+        </div>
+        <div class="full box-c mar5-bot">
+          <h5 class="text-sprocket-dblue"><span class="text-sprocket-slate">Levels :</span> Beach, House Party</h5>
+        </div>
+        <div class="full box-c mar5-bot">
+          <h5 class="text-sprocket-dblue"><span class="text-sprocket-slate">Students :</span> 24188240, 24188240, 24188240, 24188240, 24188240, 24188240, 24188240, 24188240, 24188240, 24188240, 24188240</h5>
+        </div>
+      </div><!-- END: Filtered Data -->
+
       <div class="full box-b">
           <div class="header-b">
-            <h4 class="text-sprocket-lblue">
+            <!-- <h4 class="text-sprocket-lblue">
               All Users ( <span class="text-white">68</span> ) 
               <span class="text-sprocket-altblue mar5-left mar5-right"> | </span>
-              <span class="text-white">All Levels</span></h4>
+              <span class="text-white">All Levels</span></h4> -->
+           <h4 class="text-white">
+              Summary Data</h4>
           </div>
           <div class="body">
             <div class="grid-3col ggap-10">
@@ -183,7 +200,7 @@
     <section>
       <div class="full box-b mar30-top">
         <div class="header-b">
-          <h3 class="text-white">Assignment Data</h3>
+          <h4 class="text-white">Assignment Data</h4>
         </div>
         <div class="body">
           <div class="grid-3col-data-select mar20-bot">
@@ -269,6 +286,7 @@
     </section><!-- END: Heatmap -->
   </div><!-- END: Wrapper -->
 </div><!-- END: Wrapper Content -->
+
 
 
 
