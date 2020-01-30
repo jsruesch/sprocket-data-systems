@@ -1728,8 +1728,17 @@ select {
 .marker-magenta-a {
   background: #d166d1; }
 
+.marker-magenta-b {
+  background: #F44BA2; }
+
 .marker-orange-a {
   background: #e27c28; }
+
+.marker-purple-a {
+  background: #704C98; }
+
+.marker-teal-a {
+  background: #26CC97; }
 
 /* END: Elements */
 /**
