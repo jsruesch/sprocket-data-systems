@@ -6,7 +6,7 @@
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-player-start"></span> Player Start</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Drunk Driver</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Drunk Driver</h5>
       </div>
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
@@ -14,7 +14,7 @@
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Karaoke</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Kitchen</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Kitchen</h5>
       </div>
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
