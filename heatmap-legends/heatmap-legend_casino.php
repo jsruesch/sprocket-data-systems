@@ -22,7 +22,7 @@
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-yellow-a"></span> Old Friend</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Skin Care Sample Table</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Skin Care Sample Table</h5>
       </div>
    </div>      
 </div><!-- END: Heatmap Marker Legend : Casino -->
