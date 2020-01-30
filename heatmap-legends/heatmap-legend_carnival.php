@@ -14,12 +14,12 @@
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-teal-a"></span> Water Gun Shootout</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Lost Child's Mother Area</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Lost Child's Mother Area</h5>
       </div>
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Wack-A-Clown</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Wack-A-Clown</h5>
       </div>
       <div class="full box-c mar5-bot">
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Pumpkin Chuckin</h5>
