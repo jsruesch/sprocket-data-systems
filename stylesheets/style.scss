@@ -1075,6 +1075,24 @@
   }
 }
 
+.legend-marker{
+  border: 4px solid rgba( 0,0,0,.35); 
+  border-radius: 12px; 
+  width: 23px; 
+  height: 23px;
+  display: inline-block; 
+  margin: 0 5px -5px 0; 
+}
+
+.marker-player-start{ background: #DF4141; }
+.marker-blue-a{       background: #164893;}
+.marker-blue-b{       background: #54C1E2;}
+.marker-green-a{      background: #70ec65;}
+.marker-green-b{      background: #009b27}
+.marker-yellow-a{     background: #FDDA16;}
+.marker-gold-a{       background: #866f23;}
+.marker-magenta-a{    background: #d166d1;}
+.marker-orange-a{     background: #e27c28;}
 
 /* END: Elements */
 
