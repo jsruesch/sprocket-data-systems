@@ -11,7 +11,7 @@
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Meal Choice Encounter</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Meal Choice Encounter</h5>
       </div>
       <div class="full box-c mar5-bot">
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Ted</h5>
@@ -19,7 +19,7 @@
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Book Club</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Book Club</h5>
       </div>
       <div class="full box-c mar5-bot">
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-purple-a"></span> Crossword Bench</h5>
