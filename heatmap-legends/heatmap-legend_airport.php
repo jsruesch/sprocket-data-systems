@@ -6,28 +6,23 @@
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-player-start"></span> Player Start</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-green-b"></span> Sand Table</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-orange-a"></span> Stranger Conversation</h5>
       </div>
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-orange-a"></span> Circle Time Area</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-yellow-a"></span> Seating Area</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Kitchen Playset</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-green-a"></span> Stroller</h5>
       </div>
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Guitar Case</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Gift Shop</h5>
       </div>
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Snack Time Area</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Gift Shop Clerk</h5>
       </div>
-   </div>
-   <div class="full grid-2col ggap-10 mar10-bot">
-      <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-yellow-a"></span> Upset Friend</h5>
-      </div>
-   </div>         
+   </div>       
 </div><!-- END: Heatmap Marker Legend : Airport -->
