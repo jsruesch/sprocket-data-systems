@@ -19,7 +19,7 @@
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Package Negotiation Area</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Package Negotiation Area</h5>
       </div>
       <div class="full box-c mar5-bot">
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-magenta-a"></span> Pushup Competition Area</h5>
@@ -27,7 +27,7 @@
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Duty Swap Conversation</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Duty Swap Conversation</h5>
       </div>
    </div>         
 </div><!-- END: Heatmap Marker Legend : Military Base -->
