@@ -11,7 +11,7 @@
    </div>
    <div class="full grid-2col ggap-10 mar10-bot">
       <div class="full box-c mar5-bot">
-         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-a"></span> Group Photo</h5>
+         <h5 class="text-sprocket-dblue"><span class="legend-marker marker-blue-b"></span> Group Photo</h5>
       </div>
       <div class="full box-c mar5-bot">
          <h5 class="text-sprocket-dblue"><span class="legend-marker marker-green-b"></span> Bully Encounter</h5>
